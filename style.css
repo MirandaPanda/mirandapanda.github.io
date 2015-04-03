@@ -1,0 +1,312 @@
+body {
+	font-family: sans-serif;
+	overflow-x: hidden; 
+}
+
+.navynav {
+	background-color: rgba(0,0,0,.85);
+}
+
+
+.arrow {
+	color: black;
+	opacity: .85;
+	text-align: center;
+	font-size: 7em;
+	margin-bottom: 60px
+	
+}
+
+.arrow a {
+	color: rgba(0,0,0,.85);
+}
+/*#my-navbar {
+	opacity: .85;
+
+
+}*/
+
+/*.navbar-brand {
+	color: #cf710f;
+}*/
+
+
+.main {
+	background-image: url("images/dark_geometric.png");
+}
+
+.jumbotron {
+	background-image: url("images/shiny.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+}
+
+
+.myname {
+	font-family: 'Megrim', cursive;
+	color: #cf710f;
+	font-size: 5.2em;
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+	
+}
+
+.me {
+	width: 100%;
+}
+
+.jumbotron .desc {
+	width: 0 auto;
+	font-family: 'Gafata', sans-serif;
+	font-size: 1.3em;
+	color: #faeacf;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 30px;
+	text-align: center;
+	
+}
+
+.descrip {
+	height: 300px;
+  	width: 800px;
+  	opacity: .85;
+  	margin: 0 auto;
+  	margin-top: 100px;
+  	margin-bottom: 100px;
+  	background-color: rgba(0, 0, 0, .8);
+  	color: #fab341;
+}
+
+.btn-group a{
+	color: black;
+
+}
+
+.container-main {
+	background-image: url("images/dark_geometric.png");
+	width: 100%;
+	height: 400px;
+	margin-left: 0;
+	margin-right: 0;
+	
+}
+
+h3 {
+	color: #cf710f;
+	font-size: 2.3em;
+	font-family: 'Megrim', cursive;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	text-align: center;
+
+}
+
+h2 {
+	color: #fab341;
+	font-size: 3em;
+	font-family: 'Megrim', cursive;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+p {
+	padding: 20px;
+	font-family: 'Gafata', sans-serif;
+	line-height: 18px;
+	font-size: 18px;
+}
+
+#whoiam {
+	margin-top: 0px;
+	border-bottom: solid 3px;
+	border-top: solid 3px;
+}
+
+#whoiam h2 {
+	margin-top: 35px;
+}
+
+.who {
+	border-right: solid 1px;
+	padding: 20px;
+
+}
+
+.what{
+	padding: 20px;
+}
+
+.bloq {
+	color: #faeacf;
+	font-family: 'Gafata', sans-serif;
+	padding: 20px
+}
+
+.who-bloq {
+	padding-left: 50px;
+	padding-right: 50px; 
+}
+
+.what-bloq {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#mywork {
+	width: 100%;
+	background-image: url("images/dark_geometric.png");
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+
+	border-top: solid 3px;
+	border-bottom: solid 3px;
+}
+
+.col-md-4 {
+	padding-left: 70px;
+}
+
+.something {
+	color: #faeacf;
+	font-family: 'Gafata', sans-serif;
+	padding: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-left: 20px;
+
+}
+
+#contact {
+	border-top: solid 3px;
+	border-bottom: solid 3px;
+}
+
+
+footer {
+	background-image: url("images/dark_geometric.png");
+	color: #cf710f;
+	font-size: 12px;
+	padding-top: 40px;
+
+}
+
+.list-inline {
+	text-align: center;
+}
+
+.list-inline li {
+	padding:5px;
+}
+
+.copy {
+	text-align: center;
+}
+
+
+/* .container {
+	background-image: url("images/dark_geometric.png");
+	width: 100%;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+} */
+
+
+/* .container .text-center .descrip {
+	background-image: url("images/dark_geometric.png");
+	width: 100%;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+} */
+
+/*.container .container-work {
+	background-image: url("images/dark_geometric.png");
+	width: 100%;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+} */
+
+.somth {
+	background-image: url("images/dark_geometric.png");
+	width: 100%;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+} 
+
+.container-cont {
+	background-image: url("images/dark_geometric.png");
+	width: 100%;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+} 
+
+/*
+.carousel .slide {
+	width: 400px;
+}
+
+.carousel-indicators {
+	color: #cf710f;
+	padding: 10px;
+}
+*/
+
+.cap {
+	color: #faeacf;
+	font-family: 'Poiret One', cursive;
+	text-align: center;
+	padding: 20px;
+
+}
+
+img {
+	display: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+.contactinfo {
+	color: #cf710f;
+	font-family: 'Gafata', sans-serif;
+	padding: 10px;
+	font-size: 18px;
+	text-align: center;
+}
+
+.contactdesc {
+	color: #faeacf;
+	font-family: 'Gafata', sans-serif;
+	text-align: center;
+}
+
+.navbar-brand {
+	font-family: 'Megrim', cursive;
+	color: #faeacf;
+}
+
+.navbar-nav {
+	font-family: 'Megrim', cursive;
+	color: #faeacf;
+}
