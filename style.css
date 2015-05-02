@@ -44,7 +44,15 @@ a {
 	display: inline-block;
 	width: 100%;
 	text-align: center;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+.socmedia li a {
+	display: inline-block;
+	width: 100%;
 	padding: 10px;
+	text-align: center;
 	text-decoration: none;
 	text-transform: capitalize;
 }
@@ -67,6 +75,11 @@ h1 {
  	padding-bottom: 2%;
 }
 
+h1 img {
+	padding: 1%;
+	padding-left: 0%;
+}
+
 h2 {
 	font-family: 'Megrim', cursive;
 	font-size: 3em;
@@ -79,13 +92,14 @@ h3 {
 	font-family: 'Gafata', sans-serif;
 	font-size: 2.2em;
 	text-align: center;
+	color: #4A90E2;
 }
 
 .section1 {
 	text-align: center;
-	padding-top: 8%;
+	padding-top: 1%;
 	padding-bottom: 5%;
-	height: 300px;
+	height: 550px;
 	border-bottom: solid 1px gray;
 }
 
@@ -98,26 +112,60 @@ h3 {
 	width: 700px;
 	text-align: center;
 	margin: 0 auto;
-padding-bottom: 3%;
+	padding-bottom: 3%;
+	text-align: justify;
+}
+
+button {
+	background-color: rgba(0,0,0, .1);
+	border: solid #07F4E2 3px;
+	height: 30px;
+	width: 170px;
+	color: #07F4E2;
+	font-size: 1em;
+	font-family: 'Gafata', sans-serif;
+
 }
 
 .section2 {
-	height: 300px;
+	height: 550px;
 	border-bottom: solid 1px gray;
 	padding: 6%;
 }
 
 .processicons img {
-	width: 100px;
-	height: 100px;
+	width: 150px;
+	height: 150px;
 }
 
 .icons {
 	float: left;
 	display: inline-block;
-	width: 150px;
-	padding: 6%;
+	width: 16%;
+	padding: 4%;
 	text-align: center;
+}
+
+.blurb {
+	width: 200px;
+	padding-left: 0%;
+	padding-right: 1%;
+	line-height: 1.4em;
+	padding-top: 18%;
+	font-size: 1em;
+	text-align: justify;
+}
+
+
+.bloglink {
+	text-align: center;
+	width: 500px;
+	margin: auto;
+}
+
+
+.bloglink a {
+	font-size: 1.2em;
 }
 
 .section3 {
@@ -131,10 +179,9 @@ padding-bottom: 3%;
 }
 
 .socdiv {
-	height: 90px;
+	height: 70px;
 	width: 210px;
 	margin: auto;
-	padding-top: 2%;
 }
 
 .socmedia li img {
@@ -143,5 +190,16 @@ padding-bottom: 3%;
 	margin: auto;
 	height: 50px;
 	width:  50px;
+}
+
+.email a{
+	color: #4A90E2;
+	font-size: 1.8em;
+	padding-top: 2%;
+	font-family: 'Megrim', cursive;
+}
+
+.copy {
+	font-size: .8em;
 }
 
